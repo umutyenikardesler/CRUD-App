@@ -103,6 +103,7 @@ export default function Index() {
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
+          maxLength={35}
           placeholder="Add a new todo"
           placeholderTextColor="gray"
           value={text}
